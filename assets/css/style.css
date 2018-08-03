@@ -36,3 +36,7 @@ body{
    .card-header{
     border: solid 1px lightslategray;
    }
+
+   .contactLink{
+    color: gainsboro;
+   }

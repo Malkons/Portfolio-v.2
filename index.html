@@ -5,8 +5,7 @@
     <meta charset="UTF-08">
     <!--Link to Jquery-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!--Link to Javascript-->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
     <!--Linking Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
     <!--Link to CSS-->
@@ -17,43 +16,62 @@
 <body>
 
     <div class="container">
+        <br>
         <div class="row">
             <div class="col-sm-12">
                 <div class="jumbotron">
                     <h1 class="display-3">Marc Alkons</h1>
+                    <button type="button" class="btn btn-secondary" id="btnAbout">About</button>
+                    <button type="button" class="btn btn-secondary" id="btnContact">Contact</button>
+                    <button type="button" class="btn btn-secondary" id="btnPortfolio">Portfolio</button>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-12">
-                <div class="card">
-                    <div class="card-header ">
+                <div class="card" id="portfolio">
+                    <div class="card-header">
                         <h3>Portfolio</h3>
                     </div>
                     <div class="card-body">
                         <div class="card-deck">
                             <div class="card">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="assets/images/nature-q-c-287-180-8.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.
-                                        This content is a little bit longer.</p>
+                                    <h5 class="card-title">Gif Getter</h5>
+                                    <p class="card-text">
+                                        Uses AJAX calls to the Giphy API then dynaically creates buttons based on user inputs.
+                                    </p>
+                                    <div class="card-body">
+                                        <a href="https://malkons.github.io/Gif-Getter/" class="card-link text-white">https://malkons.github.io/Gif-Getter</a>
+                                    </div>
                                 </div>
                             </div>
+
                             <div class="card">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top" src="assets/images/transport-q-c-287-180-8.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <h5 class="card-title">Trekker Trivia</h5>
+                                    <p class="card-text">
+                                        A timed a trivia quiz about Star Trek. Uses Jquery and javascript to calculate how well a person does on the quiz
+                                    </p>
+                                    <div class="card-body">
+                                        <a href="https://malkons.github.io/Trekker-Trivia/" class="card-link text-white">https://malkons.github.io/Trekker-Trivia</a>
+                                    </div>
                                 </div>
                             </div>
+
                             <div class="card">
-                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <img class="card-img-top img" src="assets/images/transport-q-c-287-180-2.jpg" alt="Card image cap">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                                        This card has even longer content than the first to show that equal height action.</p>
+                                    <h5 class="card-title">Starship Scheduler</h5>
+                                    <p class="card-text">
+                                        A simple Starship Schedualer that uses Firebase to populate a table using Jquery.
+                                    </p>
+                                    <div class="card-body">
+                                        <a href="https://malkons.github.io/Starship-Schedule" class="card-link text-white">https://malkons.github.io/Starship-Schedule/</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -61,11 +79,35 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-sm-12">
-                <div class="card">
+                <div class="card" id="contact">
                     <div class="card-header">
                         <h3>Contact</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card" id="about">
+                    <div class="card-header">
+                        <h3>About</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="img" src="http://lorempixel.com/output/nature-q-c-200-200-10.jpg" alt="placeholder">
+                        <p class="p">
+                            Donec ac libero est. Integer vehicula gravida hendrerit. Donec ultrices convallis metus a tempus. Sed nisl nisi, pretium
+                            et quam sit amet, placerat suscipit velit. Nulla quis bibendum diam, sit amet mollis nibh. Proin
+                            venenatis tellus nulla, eu tempus elit ullamcorper commodo. Donec consequat in risus in elementum.
+                            Fusce ullamcorper eget neque a blandit. Vestibulum in lacus non orci vestibulum hendrerit. Fusce
+                            ornare, odio at laoreet imperdiet, augue eros consectetur arcu, a ornare leo dui vitae nibh.
+                            Vestibulum eget consectetur nunc. Vestibulum justo augue, iaculis quis tristique non, interdum
+                            in ligula. Duis gravida, nibh eu consectetur semper, nisl neque pharetra neque, nec posuere leo
+                            metus vitae eros. Pellentesque gravida urna eget rutrum ullamcorper.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -74,9 +116,8 @@
 
 
 
-
-
-
+    <!--Link to Javascript-->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 
 </html>

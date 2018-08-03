@@ -4,7 +4,35 @@ body{
 
   .jumbotron{
     background: rgba(54, 54, 54, 0.5);
+    color: gainsboro;
+    border: solid 2px lightslategray;
   }
 
-  
+  .card{
+    background: rgba(54, 54, 54, 0.5);
+    color: gainsboro;
+  }
 
+  .card-title{
+      font-size: 32px;
+      text-decoration: underline;
+    
+  }
+
+  .card-link{
+      font-size: 24px;
+      color: lightseagreen !important; 
+   }
+
+   .img{
+    float: left;
+    margin: 10px;      
+   }
+
+   .p{
+       font-size: 18px;
+   }
+
+   .card-header{
+    border: solid 1px lightslategray;
+   }

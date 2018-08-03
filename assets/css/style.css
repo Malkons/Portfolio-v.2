@@ -40,3 +40,7 @@ body{
    .contactLink{
     color: gainsboro;
    }
+
+   .card-body{
+       border: solid 1px lightslategray;
+   }

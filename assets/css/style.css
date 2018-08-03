@@ -1,3 +1,10 @@
 body{
     background-image: url("../images/Title\ background\ Image\ Lone\ Cypress\ Edit.jpg");
   }
+
+  .jumbotron{
+    background: rgba(54, 54, 54, 0.5);
+  }
+
+  
+

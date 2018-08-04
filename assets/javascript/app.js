@@ -6,22 +6,29 @@ $(document).ready(function () {
 
     // About Button
     $("#btnAbout").on("click", function () {
+        $("#about").fadeIn("slow", function () {
+            // Animation complete
+        });
         $("#portfolio").hide();
         $("#contact").hide();
-        $("#about").show();
     });
 
     // Contact Button
     $("#btnContact").on("click", function () {
+
+        $("#contact").fadeIn("slow", function () {
+            // Animation complete
+        });
         $("#portfolio").hide();
-        $("#contact").show();
         $("#about").hide();
     });
-    
+
     // Portfolio Button
     $("#btnPortfolio").on("click", function () {
-        $("#portfolio").show();
-        $("#contact").hide();
+        $("#portfolio").fadeIn("slow", function () {
+            // Animation complete
+        });
         $("#about").hide();
+        $("#contact").hide();
     });
 });

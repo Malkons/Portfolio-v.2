@@ -1,3 +1,8 @@
+a{
+    target-name: new;
+    target-new: tab;
+}
+
 body{
     background-image: url("../images/Title\ background\ Image\ Lone\ Cypress\ Edit.jpg");
   }
@@ -14,13 +19,13 @@ body{
   }
 
   .card-title{
-      font-size: 32px;
+      font-size: 24px;
       text-decoration: underline;
     
   }
 
   .card-link{
-      font-size: 24px;
+      font-size: 16px;
       color: lightseagreen !important; 
    }
 
@@ -44,3 +49,8 @@ body{
    .card-body{
        border: solid 1px lightslategray;
    }
+
+   .link{
+       padding: 5px;
+   }
+

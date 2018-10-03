@@ -15,7 +15,6 @@ $(document).ready(function () {
 
     // Contact Button
     $("#btnContact").on("click", function () {
-
         $("#contact").fadeIn("slow", function () {
             // Animation complete
         });

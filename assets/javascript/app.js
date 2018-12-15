@@ -7,8 +7,8 @@ $(document).ready(function () {
     // About Button
     $("#btnAbout").on("click", function () {
         $("#about").fadeIn("slow", function () {
-            // Animation complete
-        });
+             // Animation complete
+            });
         $("#portfolio").hide();
         $("#contact").hide();
     });

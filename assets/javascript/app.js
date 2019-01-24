@@ -3,12 +3,14 @@ $(document).ready(function () {
     $("#portfolio").hide();
     $("#contact").hide();
     $("#about").show();
+    $("#skills").show();
 
     // About Button
     $("#btnAbout").on("click", function () {
         $("#about").fadeIn("slow", function () {
-             // Animation complete
-            });
+            }); // Animation complete
+        $("#skills").fadeIn("slow", function (){ 
+            }); // Animation complete  
         $("#portfolio").hide();
         $("#contact").hide();
     });
@@ -16,18 +18,18 @@ $(document).ready(function () {
     // Contact Button
     $("#btnContact").on("click", function () {
         $("#contact").fadeIn("slow", function () {
-            // Animation complete
-        });
+             }); // Animation complete
         $("#portfolio").hide();
         $("#about").hide();
+        $("#skills").hide();
     });
 
     // Portfolio Button
     $("#btnPortfolio").on("click", function () {
         $("#portfolio").fadeIn("slow", function () {
-            // Animation complete
-        });
+        }); // Animation complete
         $("#about").hide();
+        $("#skills").hide();
         $("#contact").hide();
     });
 });

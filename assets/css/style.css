@@ -1,3 +1,4 @@
+
 body{
     background-image: url("../images/Title\ background\ Image\ Lone\ Cypress\ Edit.jpg");
     background-size: cover;
@@ -16,8 +17,7 @@ body{
 
   .card-title{
       font-size: 24px;
-      text-decoration: underline;
-    
+      text-decoration: underline;  
   }
 
   .card-link{
@@ -36,6 +36,7 @@ body{
 
    .card-header{
     border: solid 1px lightslategray;
+    background: rgba(54, 54, 54, 0.8);
    }
 
    .contactLink{
@@ -48,5 +49,12 @@ body{
 
    .link{
        padding: 5px;
+   }
+
+   .img-skill{
+    border-radius: 50%;
+    height: 75x;
+    width: 75px;
+    margin: 1.25px;
    }
 

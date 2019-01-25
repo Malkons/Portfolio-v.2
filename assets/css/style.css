@@ -15,6 +15,9 @@ body{
     color: gainsboro;
   }
 
+  .port-card:hover{
+    border: solid 2px blue;
+  }
   .card-title{
       font-size: 24px;
       text-decoration: underline;  
@@ -51,10 +54,29 @@ body{
        padding: 5px;
    }
 
-   .img-skill{
+   .img-skill{   
     border-radius: 50%;
     height: 75x;
     width: 75px;
     margin: 1.25px;
    }
 
+.img-skill:hover{
+    border: solid 2px blue;
+}
+
+.img-skill-port{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+.img-skill-port:hover{
+    border: solid 2px blue;
+}
+
+.img-con{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}

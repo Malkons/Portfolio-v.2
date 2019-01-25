@@ -27,7 +27,7 @@ $(document).ready(function () {
     // Portfolio Button
     $("#btnPortfolio").on("click", function () {
         $("#portfolio").fadeIn("slow", function () {
-        }); // Animation complete
+            }); // Animation complete
         $("#about").hide();
         $("#skills").hide();
         $("#contact").hide();

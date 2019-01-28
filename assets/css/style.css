@@ -48,6 +48,7 @@ body{
 
    .card-body{
        border: solid 1px lightslategray;
+       background: rgba(54, 54, 54, 0.5);
    }
 
    .link{
@@ -79,4 +80,28 @@ body{
     width: 20px;
     height: 20px;
     margin: 2px;
+  
 }
+
+.workexp-date{
+    display: inline;
+    float: right;
+    
+}
+
+.Bsdate{
+    display: inline;
+    float: right;
+}
+
+.art{
+    display: inline;
+    height: 25%;
+    width: 25%;
+}
+
+.book{
+    height: 190px;
+    width: 130px; 
+}
+

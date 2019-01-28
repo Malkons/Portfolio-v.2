@@ -4,6 +4,10 @@ $(document).ready(function () {
     $("#contact").hide();
     $("#about").show();
     $("#skills").show();
+    $("#workexp").show();
+    $("#gamesplay").show();
+    $("#scouts").show();
+    $("#art").show();
 
     // About Button
     $("#btnAbout").on("click", function () {
@@ -11,6 +15,14 @@ $(document).ready(function () {
             }); // Animation complete
         $("#skills").fadeIn("slow", function (){ 
             }); // Animation complete  
+        $("#workexp").fadeIn("slow", function (){ 
+            }); // Animation complete  
+        $("#gamesplay").fadeIn("slow", function (){ 
+            }); // Animation complete 
+        $("#scouts").fadeIn("slow", function (){ 
+            }); // Animation complete 
+        $("#art").fadeIn("slow", function (){ 
+            }); // Animation complete 
         $("#portfolio").hide();
         $("#contact").hide();
     });
@@ -22,6 +34,11 @@ $(document).ready(function () {
         $("#portfolio").hide();
         $("#about").hide();
         $("#skills").hide();
+        $("#workexp").hide();
+        $("#gamesplay").hide();
+        $("#scouts").hide();
+        $("#art").hide();
+        
     });
 
     // Portfolio Button
@@ -30,6 +47,10 @@ $(document).ready(function () {
             }); // Animation complete
         $("#about").hide();
         $("#skills").hide();
+        $("#workexp").hide();
+        $("#gamesplay").hide();
         $("#contact").hide();
+        $("#scouts").hide();
+        $("#art").hide();
     });
 });

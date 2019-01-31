@@ -94,14 +94,13 @@ body{
     float: right;
 }
 
-.art{
-    display: inline;
-    height: 25%;
-    width: 25%;
-}
-
 .book{
     height: 190px;
     width: 130px; 
+}
+
+.carousel{
+    width: 263px;
+    margin:auto;
 }
 

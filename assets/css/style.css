@@ -86,7 +86,6 @@ body{
 .workexp-date{
     display: inline;
     float: right;
-    
 }
 
 .Bsdate{
@@ -101,6 +100,15 @@ body{
 
 .carousel{
     width: 263px;
-    margin:auto;
+    height: 263px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.work-logo{
+    padding: 5px;
+    display: inline;
+    width: 75px;
+    height: 75px;
 }
 

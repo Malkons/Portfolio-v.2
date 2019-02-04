@@ -53,4 +53,4 @@ $(document).ready(function () {
         $("#scouts").hide();
         $("#art").hide();
     });
-});
+});// end of document function
